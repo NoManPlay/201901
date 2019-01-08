@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>弹幕测试-大屏</title>
+    <link href="css/component.css" rel="stylesheet">
+    <link href="css/pc.css?n=4" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/pc2.js?n=5"></script>
+</head>
+
+<body>
+    <div class="overlay">
+        <video class="overlay" id="video" width="1920" height="1080">
+            <source src="video/1.mp4" type="video/mp4">
+        </video>
+        <div class="overlay" id="bulletBox">
+        </div>
+        <div class="hint"></div>
+    </div>
+    <style type="text/css">
+        .bullet {
+            animation: bullet_anim 10s linear 0s;
+        }
+
+        .bullet2 {
+            animation: bullet_anim2 11.5s linear 0s;
+        }
+
+        .bullet3 {
+            animation: bullet_anim3 15s linear 0s;
+        }
+
+        @keyframes bullet_anim {
+            from {
+                left: 100%;
+                -webkit-transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                left: 0;
+                -webkit-transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes bullet_anim2 {
+            from {
+                left: 115%;
+                -webkit-transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                left: 0;
+                -webkit-transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes bullet_anim3 {
+            from {
+                left: 150%;
+                -webkit-transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                left: 0;
+                -webkit-transform: translate3d(-100%, 0, 0);
+            }
+        }
+    </style>
+    <script type="text/javascript" src="js/play.js"></script>
+</body>
+
+</html>

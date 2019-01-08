@@ -1,0 +1,94 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: Arial,"SimHei","Microsoft YaHei";
+	font-size:62.5%;
+}
+
+body{
+	margin:0;
+	padding:0;
+	border:none;
+	width:100%;
+	height:100%;
+	background: #fff;
+	color:#fff;
+}
+
+.loading-container,
+.page-container,
+.page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+.loading-container{z-index: 4;}
+.page-container{z-index: 1;}
+
+.page{visibility: hidden;}
+.page.cur{visibility: visible;}
+.page.page-next-in{visibility: visible;}
+.page.page-next-out{visibility: visible;}
+.page.page-prev-in{visibility: visible;}
+.page.page-prev-out{visibility: visible;}
+
+.clearfix{clear:both;}
+.hidden{display:none;}
+.invisible{visibility: hidden;}
+.opacity0{opacity: 0;}
+.inline-block{display:inline-block;}
+.inline{display:inline;}
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.z1{z-index: 1;}
+.z2{z-index: 2;}
+.z3{z-index: 3;}
+.z4{z-index: 4;}
+.z5{z-index: 5;}
+.z6{z-index: 6;}
+.z7{z-index: 7;}
+.z8{z-index: 8;}
+.z9{z-index: 9;}
+
+
+@media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+    html { font-size: 70.3%; } 
+}
+@media screen and (min-width:375px) and (max-width:383px) and (orientation:portrait) {
+    html { font-size: 73.24%; } 
+}
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+    html { font-size: 75%; } 
+}
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+    html { font-size: 78.125%; } 
+}
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait){
+    html { font-size: 80.86%; }
+}
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait){
+    html { font-size: 84.375%; }
+}
+
+@media screen and (min-width:480px)and (max-width:639px) and (orientation:portrait){
+   html{ font-size:93.75%;}
+} 
+@media screen and (min-width:640px) and (orientation:portrait){
+   html{ font-size:125%;}
+}

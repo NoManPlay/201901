@@ -1,0 +1,27 @@
+body {
+    overflow: -Scroll;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.bullet,
+.bullet2,
+.bullet3 {
+    position: absolute;
+    right: 0;
+    font-size: 26px;
+    font-weight: bolder;
+    /*border: 1px solid white;*/
+}
+
+#textWidth {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.hint {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../img/play.png) center no-repeat;
+}

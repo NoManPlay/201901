@@ -1,5 +1,6 @@
-# 201901
-2019.01
+animation
 
+canvas
 
-ok,I'm ready.
+两种实现方式
+使用了弹幕插件
